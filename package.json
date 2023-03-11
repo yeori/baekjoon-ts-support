@@ -1,0 +1,29 @@
+{
+  "name": "baekjoon-ts-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "bin": {
+    "bts": "src/cli/cli.mjs",
+    "bjs": "src/cli/cli.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cross-spawn": "^7.0.3",
+    "glob": "^9.2.1",
+    "minimist": "^1.2.8",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@vitest/coverage-istanbul": "^0.29.2",
+    "ts-node": "^10.9.1",
+    "vitest": "^0.29.2"
+  }
+}
