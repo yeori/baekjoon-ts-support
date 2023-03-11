@@ -1,9 +1,10 @@
 {
   "name": "baekjoon-ts-support",
   "version": "1.0.0",
-  "description": "",
+  "description": "nodejs 또는 typescript로 백준 알고리즘 문제를 코딩할때 사용하려고 만들었음.",
   "main": "index.js",
   "scripts": {
+    "start": "",
     "test": "vitest --run"
   },
   "bin": {

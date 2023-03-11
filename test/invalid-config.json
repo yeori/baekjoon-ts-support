@@ -1,0 +1,7 @@
+{
+  "ROOT_DIR": "src/bronze",
+  "TS_FILE": "index.ts",
+  "JS_FILE": "index.js",
+  "TC_FILE": "s{}.tc",
+  "INVALID": "INVALID"
+}
