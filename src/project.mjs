@@ -89,7 +89,7 @@ export default class BtsProject {
   compile() {
     if (this.lang === "js") {
       Console.printWarn(
-        'Command [bjs] does not support compile. Run your code with "npx bjs --tc <quizId>"'
+        'Command [bjs] does not support compile. Run your code with "npx bjs --test <quizId>"'
       );
       return;
     }
